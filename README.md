@@ -1,32 +1,35 @@
-### Enviar Formulario HTML con Flask - Python 🐍 y MySQL
+### Formulario Flask MySQL
 
-##### Sistema de envío de formularios HTML utilizando Flask, Python y MySQL. Proporciona una solución integral para la gestión eficiente de datos ingresados en formularios, garantizando la conexión fluida entre el frontend y el backend mediante Flask.
+##### Sistema de envio de formulários HTML usando Flask, Python e MySQL. Ele fornece uma solução abrangente para gerenciamento eficiente dos dados inseridos em formulários, garantindo uma conexão perfeita entre frontend e backend usando Flask.
 
-#### PASO 1, Crear mi entorno virtual
-	 virtualenv -p python3 env o python3 -m venv env
+#### PASSO 1 - Criar o ambiente virtual
+	apt install python3.11-venv
+	python3 -m venv env
 
-#### PASO 2, Activar el entorno virtual ejecutando;
-	 . env/Scripts/activate  
+#### PASSO 2 - Ative o ambiente virtual executando;
+	source env/bin/activate
  
-#### PASO 3, Ya dentro del entorno virtual instalar flask
-	  pip install flask
+#### PASSO 3 - Dentro do ambiente virtual instalar o python e flask
+	sudo apt install python3  
+   	pip install flask
 
-#### PASO 4, Instalar Python MySQL Connector, es una bibliote (Driver) para conectar Python con MySQL
+#### PASSO 4 - Instalar o conector Python MySQL, é uma biblioteca (Driver) para conectar Python com MySQL
 	 pip install mysql-connector-python
 
-#### PASO 5, Lista todos mis paquetes
+#### PASSO 5 - Listar todos os meus pacotes
 	 pip list  o pip freeze
 
-#### Crear/Actualizar el fichero requirements.txt:
+#### PASSO 6 - Crie/atualize o arquivo requirements.txt:
 	 pip freeze > requirements.txt
 
-#### IMPORTANTE, para correr el proyecto solo debes ejecutar el archivo
-	 requirements.txt con el comando pip install -r requirements.txt en el 
-	 mismo se encuentran todas las dependecias del proyecto.
+#### IMPORTANTE - para executar o projeto basta executar o arquivo requirements.txt para instalar as dependências do projeto.
+pip install -r requirements.txt
 
-	(env)$ deactivate   Para desactivar nuestro entono virtual
- 
-#### Comando para actualizar pip: python -m pip install --upgrade pip
+#### Comando para atualizar o pip:
+python -m pip install --upgrade pip
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/enviar-formulario-con-python-y-flask.png)
+# PASSO 7 - executar o projeto
+python3 app/main.py
 
+#### Para desativar o ambiente virtual:
+(env)$ deactivate
