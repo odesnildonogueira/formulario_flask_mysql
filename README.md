@@ -26,10 +26,10 @@
 	pip install -r requirements.txt
 
 #### Comando para atualizar o pip:
-python -m pip install --upgrade pip
+	python -m pip install --upgrade pip
 
 #### PASSO 7 - executar o projeto
-python3 app/main.py
+	python3 app/main.py
 
 #### Para desativar o ambiente virtual:
 	(env)$ deactivate
